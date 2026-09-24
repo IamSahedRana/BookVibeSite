@@ -1,10 +1,14 @@
 import React from 'react';
+import Banner from '@/components/homepage/Banner';
+import Book from '@/components/homepage/Book';
 
 const page = () => {
   return (
     <div>
 
-      <h1> This is Main Page</h1>
+      <Banner/>
+      <Book/>
+     
       
     </div>
   );

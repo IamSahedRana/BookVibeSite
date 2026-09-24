@@ -1,0 +1,14 @@
+// Define the interface matching your book data
+export interface BookType {
+  bookId: number;
+  bookName: string;
+  author: string;
+  image: string;
+  review: string;
+  totalPages: number;
+  rating: number;
+  category: string;
+  tags: string[];
+  publisher: string;
+  yearOfPublishing: number;
+}
