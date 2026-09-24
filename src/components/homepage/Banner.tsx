@@ -13,7 +13,7 @@ const Banner = () => {
             Books to freshen up your bookshelf
           </h1>
           <button className="btn bg-[#23BE0A] hover:bg-[#1f9d09] text-white font-bold text-lg border-none px-7 py-3 h-auto rounded-xl normal-case ">
-            <Link href="/books">
+            <Link href="/listed-books">
               View The List
             </Link>
           </button>
